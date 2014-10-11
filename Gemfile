@@ -6,6 +6,11 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Use Twitter's Bootstrap for the UI + dependencies
+# see <https://github.com/twbs/bootstrap-sass#a-ruby-on-rails> for details on Rails installation
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
